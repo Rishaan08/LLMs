@@ -1,0 +1,48 @@
+name: langchain
+
+channels:
+  - conda-forge
+  - defaults
+
+dependencies:
+  - python=3.12
+  - pip
+
+  - pip:
+      - langchain
+      - langchain-community
+      - langchain-openai
+      - langchain-ollama
+      - langchain-huggingface
+      - langchain-text-splitters
+      - langchain-classic
+      - langchain-chroma
+      - langgraph>=1.0.2
+      - langchain-groq>=1.0.0
+      - groq
+      - transformers
+      - sentence-transformers
+      - huggingface-hub
+      - datasets
+      - google-genai
+      - tiktoken
+      - chromadb
+      - faiss-cpu
+      - pinecone-client
+      - pypdf
+      - pymupdf
+      - unstructured
+      - numpy
+      - pandas
+      - scikit-learn
+      - scipy
+      - matplotlib
+      - fastapi
+      - uvicorn
+      - streamlit
+      - python-dotenv
+      - requests
+      - pyyaml
+      - orjson
+      - bs4
+      - streamlit
