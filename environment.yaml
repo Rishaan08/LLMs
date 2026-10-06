@@ -29,6 +29,9 @@ dependencies:
       - chromadb
       - faiss-cpu
       - pinecone-client
+      - pinecone
+      - pinecone-text
+      - pinecone-notebooks
       - pypdf
       - pymupdf
       - unstructured
